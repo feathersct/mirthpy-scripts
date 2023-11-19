@@ -8,7 +8,7 @@ from mirthpy.filters import *
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 #region Config Values
-instances = []
+instances = []  #TODO: Add the hostnames (or ips) of your instances 
 property = ''   #TODO: Add your search property (anything in the Supporting Variables region)
 value = ''      #TODO: Add your search value
 enabledFlag = True  # Just get enabled channels, destinations, etc.
